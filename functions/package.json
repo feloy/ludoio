@@ -5,6 +5,7 @@
     "serve": "firebase serve --only functions",
     "shell": "firebase experimental:functions:shell",
     "start": "npm run shell",
+    "build": "webpack",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log"
   },
@@ -12,5 +13,11 @@
     "firebase-admin": "~5.4.2",
     "firebase-functions": "^0.7.1"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.9.1",
+    "webpack-node-externals": "^1.6.0"
+  }
 }
