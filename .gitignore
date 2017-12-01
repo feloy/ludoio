@@ -1,3 +1,5 @@
 /.firebaserc
 node_modules
 /functions/index.js
+scripts/test-create-players.js
+/serviceAccountKey.json
